@@ -8,13 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        teal: {
+          "50": "#e8f7f7",
+          "100": "#c5eaeb",
+          "200": "#8dd5d7",
+          "300": "#55bfc2",
+          "400": "#2daaae",
+          "500": "#14a1a8",
+          "600": "#0d7377",
+          "700": "#0a5a5d",
+          "800": "#084244",
+          "900": "#052a2b",
+        },
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
 export default config;
