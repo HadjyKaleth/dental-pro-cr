@@ -1,36 +1,168 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🦷 Dental Pro CR
 
-## Getting Started
+A modern full-stack web application for managing dental clinics, patients, appointments, services, and payments.
 
-First, run the development server:
+This project was developed as a personal portfolio project to strengthen my full-stack development skills using modern web technologies.
+
+---
+
+# Live Demo
+
+**Website:** https://TU-URL-DE-VERCEL.vercel.app
+
+---
+
+## Overview
+
+Dental Pro CR is a web application designed to help dental clinics manage their daily operations from a single platform.
+
+The application provides authentication, patient management, appointment scheduling, service administration, and payment tracking through a clean and responsive interface.
+
+---
+
+## Features
+
+- Secure authentication with Supabase Auth
+- Patient management
+- Appointment scheduling
+- Dental service management
+- Payment tracking
+- Clinic administration
+- Responsive user interface
+- Cloud database with Supabase
+- Production deployment with Vercel
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### Backend
+
+- Supabase
+- PostgreSQL
+- Supabase Authentication
+
+### Deployment
+
+- Vercel
+
+---
+
+## 📁 Project Structure
+
+```text
+app/
+components/
+lib/
+public/
+middleware.ts
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/HadjyKaleth/dental-pro-cr.git
+```
+
+Navigate to the project:
+
+```bash
+cd dental-pro-cr
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env.local` file:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=YOUR_SUPABASE_URL
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=YOUR_SUPABASE_PUBLISHABLE_KEY
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+### Login
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Login Screen](screenshots/login.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### Dashboard
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Dashboard](screenshots/dashboard.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+### Patients
+
+![Patients](screenshots/patients.png)
+
+---
+
+### Appointments
+
+![Appointments](screenshots/appointments.png)
+
+---
+
+### Payments
+
+![Payments](screenshots/payments.png)
+
+---
+
+## What I Learned
+
+Through the development of this project, I strengthened my experience in:
+
+- Building full-stack web applications using Next.js and TypeScript.
+- Designing relational databases with PostgreSQL.
+- Implementing authentication and session management with Supabase Auth.
+- Creating CRUD operations for multiple business entities.
+- Developing responsive user interfaces with Tailwind CSS.
+- Managing application deployment using Vercel.
+- Working with Git and GitHub for version control and collaboration.
+- Integrating frontend and backend services into a complete web application.
+
+---
+
+## Author
+
+**Hadjy Kaleth Núñez Rivera**
+
+- GitHub: https://github.com/HadjyKaleth
+
+---
+
+## Notes
+
+This project was developed for learning purposes and as part of my software development portfolio.
