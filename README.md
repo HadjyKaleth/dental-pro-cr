@@ -1,4 +1,4 @@
-# 🦷 Dental Pro CR
+# Dental Pro CR
 
 A modern full-stack web application for managing dental clinics, patients, appointments, services, and payments.
 
@@ -8,7 +8,7 @@ This project was developed as a personal portfolio project to strengthen my full
 
 # Live Demo
 
-**Website:** https://TU-URL-DE-VERCEL.vercel.app
+**Website:** https://dental-pro-cr-a1i9.vercel.app/login
 
 ---
 
