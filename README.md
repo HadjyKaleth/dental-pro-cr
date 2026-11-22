@@ -10,6 +10,11 @@ This project was developed as a personal portfolio project to strengthen my full
 
 **Website:** https://dental-pro-cr-a1i9.vercel.app/login
 
+Test user:
+
+Email: admin@dentalpro.com
+Password: Admin12345
+
 ---
 
 ## Overview
