@@ -47,13 +47,6 @@ _The test account only contains fictional data._
 | Backend / DB       | Next.js API Routes, Supabase (PostgreSQL + Auth)                               |
 | Deployment         | Vercel                                                                         |
 
-## Technical Decisions
-
-- **`withAuth` wrapper** for API routes: verifies the JWT, looks the user up in the `staff` table (must be active) and passes `clinic_id` and `role` to the handler.
-- **Server-side validation with Zod.** Invalid requests return `422` with per-field details.
-- **Basic rate limiting** on the payments endpoint. It is in-memory, so a production version should move to a shared store (e.g. Upstash Redis).
-- **Ownership check:** before recording a payment, the API confirms the patient belongs to the user's clinic.
-
 ---
 
 ## Getting Started
